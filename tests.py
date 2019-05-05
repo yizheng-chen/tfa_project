@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
         t_result = json.loads(s=result)
         ch = t_result["characterizations"]
         self.assertEqual(ch[3]["title"], "All Shook Up")
-
+#length
     def test_length(self):
         result = main.main_def()
         t_result = json.loads(s=result)
